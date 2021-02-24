@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+
+## Enable or disable xdebug for project
+##
+## Usage: fin xdebug <enable|disable>
+
+# Abort if anything fails
+set -e
+
+#-------------------------- Helper functions --------------------------------
+
+source "${PROJECT_ROOT}/.docksal/includes/helpers.sh"
+
+#-------------------------- END: Helper functions --------------------------------
+
+#-------------------------- Functions --------------------------------
+
+# Validate script param input
+validate_input ()
+{
+    if [[ -z $1 ]] || [[ $1 = "enable" ]] || [[ $1 = "1" ]]
+    then
+        setval="1"
+        status="enabled"
+    else
+        setval="0"
+        status="disabled"
+    fi
+}
+#-------------------------- END: Functions --------------------------------
+
+#-------------------------- Execution --------------------------------
+
+validate_input "$@"
+
+echo
+# Stack initialization
+echo -e "${green_bg} Step 1 ${green} Setting xdebug to ${status}...${NC}"
+fin config set --env=local XDEBUG_ENABLED="${setval}"
+
+echo
+echo -e "${green_bg} Step 2 ${green} Restarting project...${NC}"
+fin p start
+
+echo
+echo -en "${green_bg} DONE! ${NC} "

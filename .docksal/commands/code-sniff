@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+## Run Code Sniffer on all files
+##
+## Usage: fin code-sniff
+##
+## Applies automatic fixes to files using Drupal standards.
+##
+## Includes extensions:	php, module, inc, install, test, profile, theme
+## Ignores:		features.*, *.pages*.inc
+
+if [[ -z $1 ]]
+then
+  fin blt tests:phpcs:sniff:all
+
+else
+  COMMAND="phpcs"
+  MOD_PATH=${PROJECT_ROOT}
+  STANDARDS="--standard=Drupal,DrupalPractice"
+  EXTENSIONS="--extensions=php,module,inc,install,test,profile,theme,css,info,txt,md"
+  while (( $# )); do
+      case "$1" in
+        --fix | -f)
+          COMMAND="phpcbf"
+          shift
+        ;;
+        *)
+          MOD_PATH=$1
+          shift
+        ;;
+      esac
+  done
+
+  fin run "$COMMAND $STANDARDS $EXTENSIONS $MOD_PATH"
+fi
