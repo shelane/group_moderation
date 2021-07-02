@@ -62,10 +62,9 @@ BLT uses a number of configuration (.yml or .json) files to define and customize
 This project includes the following packages and configuration:
 * Drupal core
 * [Acquia BLT](https://github.com/acquia/blt) (Development and automation toolset)
-* [Acquia Lightning](https://github.com/acquia/lightning) (Drupal distribution)
-* [Drush](https://github.com/drush-ops/drush) (Drupal CLI and development tool, via Lightning)
-* [Acquia Connector](https://drupal.org/project/acquia_connector) (Management and reporting tool for Acquia Cloud sites, via Lightning)
-* [Asset Packagist](https://asset-packagist.org/) repository, package, and configuration (via Lightning)
+* [Drush](https://github.com/drush-ops/drush) (Drupal CLI and development tool )
+* [Acquia Connector](https://drupal.org/project/acquia_connector) (Management and reporting tool for Acquia Cloud sites)
+* [Asset Packagist](https://asset-packagist.org/) repository, package, and configuration
 
 
 Acquia Drupal Recommended Project
@@ -76,10 +75,9 @@ This is a project template providing a great out-of-the-box experience for new D
 This project includes the following packages and configuration:
 * Drupal core
 * [Acquia BLT](https://github.com/acquia/blt) (Development and automation toolset)
-* [Acquia Lightning](https://github.com/acquia/lightning) (Drupal distribution)
-* [Drush](https://github.com/drush-ops/drush) (Drupal CLI and development tool, via Lightning)
-* [Acquia Connector](https://drupal.org/project/acquia_connector) (Management and reporting tool for Acquia Cloud sites, via Lightning)
-* [Asset Packagist](https://asset-packagist.org/) repository, package, and configuration (via Lightning)
+* [Drush](https://github.com/drush-ops/drush) (Drupal CLI and development tool)
+* [Acquia Connector](https://drupal.org/project/acquia_connector) (Management and reporting tool for Acquia Cloud sites)
+* [Asset Packagist](https://asset-packagist.org/) repository, package, and configuration
 
 
 Once you create the project, you can and should customize `composer.json` and the rest of the project to suit your needs. You will receive updates from any dependent packages, but not from the project template itself. It's yours to keep!
