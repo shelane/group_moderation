@@ -83,7 +83,11 @@
         "patchLevel": {
             "drupal/core": "-p2"
         },
-        "patches": {}
+        "patches": {
+            "drupal/group": {
+                "2989277 - Drush commands for adding users to groups": "https://www.drupal.org/files/issues/2020-07-24/drush-commands-2989277-3.patch"
+            }
+        }
     }
 
 }
