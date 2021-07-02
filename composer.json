@@ -20,8 +20,12 @@
         "acquia/blt-phpcs": "^1.0",
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.6",
+        "drupal/admin_toolbar": "^3.0",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-recommended": "^9",
+        "drupal/entity_clone": "^1.0@beta",
+        "drupal/gcontent_moderation": "^1.0@beta",
+        "drupal/group": "^1.4",
         "drupal/mysql56": "^1.0",
         "drush/drush": "^10.3"
     },
