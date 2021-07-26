@@ -4,9 +4,9 @@
             "href": "\/group\/1?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/drupal.org\/rest\/type\/group\/content_management"
+            "href": "http:\/\/drupal.org\/rest\/type\/group\/public_content"
         },
-        "http:\/\/drupal.org\/rest\/relation\/group\/content_management\/uid": [
+        "http:\/\/drupal.org\/rest\/relation\/group\/public_content\/uid": [
             {
                 "href": "\/user\/1?_format=hal_json",
                 "lang": "en"
@@ -20,7 +20,7 @@
     ],
     "uuid": [
         {
-            "value": "1847486e-5d57-4d9a-b23b-337301c0c452"
+            "value": "28d27cec-55e5-455e-8674-34818884c0f0"
         }
     ],
     "langcode": [
@@ -31,17 +31,11 @@
     ],
     "type": [
         {
-            "target_id": "content_management"
-        }
-    ],
-    "label": [
-        {
-            "value": "Prime Group",
-            "lang": "en"
+            "target_id": "public_content"
         }
     ],
     "_embedded": {
-        "http:\/\/drupal.org\/rest\/relation\/group\/content_management\/uid": [
+        "http:\/\/drupal.org\/rest\/relation\/group\/public_content\/revision_user": [
             {
                 "_links": {
                     "self": {
@@ -53,23 +47,52 @@
                 },
                 "uuid": [
                     {
-                        "value": "0eb8cc3e-d26e-436f-b251-9a8b41a78b47"
+                        "value": "229652c3-8dca-4c42-8d0c-f76cfa07b626"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/group\/public_content\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "229652c3-8dca-4c42-8d0c-f76cfa07b626"
                     }
                 ],
                 "lang": "en"
             }
         ]
     },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "label": [
+        {
+            "value": "Prime Group",
+            "lang": "en"
+        }
+    ],
     "created": [
         {
-            "value": "2018-08-09T22:31:42+00:00",
+            "value": "2021-07-26T17:12:29+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2018-08-09T22:31:42+00:00",
+            "value": "2021-07-26T17:12:29+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -80,12 +103,10 @@
             "lang": "en"
         }
     ],
-    "metatag": [
+    "revision_translation_affected": [
         {
-            "value": {
-                "title": "| Lawrence Livermore National Laboratory",
-                "canonical_url": "\/node"
-            }
+            "value": true,
+            "lang": "en"
         }
     ]
 }
