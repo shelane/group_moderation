@@ -44,6 +44,9 @@ cd $DOCROOT_PATH
 fin blt blt:init:settings -n
 fin blt drupal:install -n
 
+fin drush en my_default_content
+fin drush pm:uninstall my_default_content -y
+
 echo
 echo -en "${green_bg} DONE! ${NC}"
 echo
