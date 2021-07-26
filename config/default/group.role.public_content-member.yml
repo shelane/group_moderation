@@ -1,0 +1,20 @@
+uuid: 09b39a6f-c06c-4338-b188-d786767e16f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.public_content
+id: public_content-member
+label: Member
+weight: -100
+internal: true
+audience: member
+group_type: public_content
+permissions_ui: true
+permissions:
+  - 'access group_node overview'
+  - 'create group_node:page entity'
+  - 'view group'
+  - 'view group_membership content'
+  - 'view group_node:page content'
+  - 'view group_node:page entity'

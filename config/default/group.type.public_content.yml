@@ -1,0 +1,11 @@
+uuid: c3f4d395-e3c0-40b5-a7c8-61d7cf33e144
+langcode: en
+status: true
+dependencies: {  }
+id: public_content
+label: 'Public Content'
+description: ''
+new_revision: true
+creator_membership: true
+creator_wizard: false
+creator_roles: {  }

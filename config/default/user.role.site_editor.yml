@@ -1,0 +1,16 @@
+uuid: 3dbb8f1c-fd96-45c9-9c68-8482d6894f79
+langcode: en
+status: true
+dependencies: {  }
+id: site_editor
+label: 'Site Editor'
+weight: 3
+is_admin: null
+permissions:
+  - 'use editorial transition archive'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition publish'
+  - 'use editorial transition ready_to_publish'
+  - 'use editorial transition restore_from_archive'
+  - 'use editorial transition send_to_review'
+  - 'view any unpublished content'

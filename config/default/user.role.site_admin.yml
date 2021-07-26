@@ -1,0 +1,16 @@
+uuid: bedf98cb-234c-4977-afa8-049e988f686b
+langcode: en
+status: true
+dependencies: {  }
+id: site_admin
+label: 'Site Admin'
+weight: 2
+is_admin: null
+permissions:
+  - 'use editorial transition archive'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition publish'
+  - 'use editorial transition ready_to_publish'
+  - 'use editorial transition restore_from_archive'
+  - 'use editorial transition send_to_review'
+  - 'view any unpublished content'

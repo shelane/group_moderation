@@ -1,0 +1,27 @@
+uuid: 0c96b960-02a2-434f-bf3e-9ae2c26268ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.public_content
+id: public_content-contributor
+label: Contributor
+weight: -8
+internal: false
+audience: member
+group_type: public_content
+permissions_ui: true
+permissions:
+  - 'access group_node overview'
+  - 'create group_node:page content'
+  - 'create group_node:page entity'
+  - 'update any group_node:page entity'
+  - 'update own group_node:page entity'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition send_to_review'
+  - 'view group'
+  - 'view group_membership content'
+  - 'view group_node:page content'
+  - 'view group_node:page entity'
+  - 'view latest version'
+  - 'view unpublished group_node:page entity'

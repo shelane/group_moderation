@@ -1,0 +1,15 @@
+uuid: 8812b0d2-a468-42c2-9018-28c727eb2fc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.public_content
+id: public_content-outsider
+label: Outsider
+weight: -101
+internal: true
+audience: outsider
+group_type: public_content
+permissions_ui: true
+permissions:
+  - 'view group_node:page entity'

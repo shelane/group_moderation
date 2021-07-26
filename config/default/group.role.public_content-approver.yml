@@ -1,0 +1,36 @@
+uuid: b239bd9e-2560-458c-a066-51df5d8a4fa2
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.public_content
+id: public_content-approver
+label: Approver
+weight: -10
+internal: false
+audience: member
+group_type: public_content
+permissions_ui: true
+permissions:
+  - 'access group_node overview'
+  - 'create group_node:page content'
+  - 'create group_node:page entity'
+  - 'delete any group_node:page content'
+  - 'delete own group_node:page content'
+  - 'update any group_node:page content'
+  - 'update any group_node:page entity'
+  - 'update own group_node:page content'
+  - 'update own group_node:page entity'
+  - 'use editorial transition archive'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition publish'
+  - 'use editorial transition ready_to_publish'
+  - 'use editorial transition restore_from_archive'
+  - 'use editorial transition send_to_review'
+  - 'use editorial transition update_published'
+  - 'view group'
+  - 'view group_membership content'
+  - 'view group_node:page content'
+  - 'view group_node:page entity'
+  - 'view latest version'
+  - 'view unpublished group_node:page entity'

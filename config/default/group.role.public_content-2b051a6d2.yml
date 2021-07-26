@@ -1,0 +1,17 @@
+uuid: 7e9dae49-bdd8-4261-9807-f218a7c946fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.public_content
+  enforced:
+    config:
+      - user.role.site_editor
+id: public_content-2b051a6d2
+label: 'Site Editor'
+weight: 3
+internal: true
+audience: outsider
+group_type: public_content
+permissions_ui: false
+permissions: {  }

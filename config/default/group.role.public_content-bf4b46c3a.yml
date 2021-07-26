@@ -1,0 +1,17 @@
+uuid: 85ebc7c2-9baa-4c7e-970f-69698bd43774
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.public_content
+  enforced:
+    config:
+      - user.role.site_admin
+id: public_content-bf4b46c3a
+label: 'Site Admin'
+weight: 2
+internal: true
+audience: outsider
+group_type: public_content
+permissions_ui: false
+permissions: {  }

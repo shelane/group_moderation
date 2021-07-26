@@ -1,0 +1,23 @@
+uuid: 3a761c98-7ca1-4181-b115-c1a7f23dcea1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.group_content.public_content-group_membership.group_roles
+    - group.content_type.public_content-group_membership
+id: group_content.public_content-group_membership.default
+targetEntityType: group_content
+bundle: public_content-group_membership
+mode: default
+content:
+  group_roles:
+    label: above
+    type: entity_reference_label
+    settings:
+      link: false
+    weight: -4
+    third_party_settings: {  }
+    region: content
+hidden:
+  entity_id: true
+  uid: true
