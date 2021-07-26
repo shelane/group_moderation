@@ -2,3 +2,10 @@ project:
   machine_name: www
   profile:
     name: minimal
+cm:
+  # Possible values: core-only, config-split, none.
+  strategy: config-split
+  core:
+    # Install site directly from existing config.
+    # This cannot be used if your install profile implements hook_install.
+    install_from_config: true
