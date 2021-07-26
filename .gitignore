@@ -140,3 +140,4 @@ drush/sites/.checksums
 /.gitattributes
 /travis_wait*
 .phpcs-cache
+docksal-local.*
