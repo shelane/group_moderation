@@ -7,6 +7,7 @@ module:
   content_moderation: 0
   contextual: 0
   dblog: 0
+  default_content: 0
   dynamic_page_cache: 0
   entity: 0
   field: 0
@@ -15,12 +16,14 @@ module:
   gcontent_moderation: 0
   gnode: 0
   group: 0
+  hal: 0
   link: 0
   menu_link_content: 0
   node: 0
   options: 0
   page_cache: 0
   path_alias: 0
+  serialization: 0
   system: 0
   text: 0
   toolbar: 0
