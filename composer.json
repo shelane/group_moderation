@@ -26,6 +26,7 @@
         "drupal/core-recommended": "^9",
         "drupal/default_content": "^1.0@alpha",
         "drupal/entity_clone": "^1.0@beta",
+        "drupal/entitygroupfield": "^1.0@alpha",
         "drupal/gcontent_moderation": "^1.0@beta",
         "drupal/group": "^1.4",
         "drupal/mysql56": "^1.0",
