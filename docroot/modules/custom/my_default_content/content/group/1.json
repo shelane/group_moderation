@@ -1,0 +1,91 @@
+{
+    "_links": {
+        "self": {
+            "href": "\/group\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/group\/content_management"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/group\/content_management\/uid": [
+            {
+                "href": "\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "1847486e-5d57-4d9a-b23b-337301c0c452"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "content_management"
+        }
+    ],
+    "label": [
+        {
+            "value": "Prime Group",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/group\/content_management\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0eb8cc3e-d26e-436f-b251-9a8b41a78b47"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": "2018-08-09T22:31:42+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-08-09T22:31:42+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "| Lawrence Livermore National Laboratory",
+                "canonical_url": "\/node"
+            }
+        }
+    ]
+}
