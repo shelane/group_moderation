@@ -4,6 +4,8 @@
 ##
 ## Usage: fin test-users
 
+  fin drush user:password admin "admin"
+
   fin drush user:create site_admin_approver --password="siteadmin"
   fin drush user:role:add "site_admin" site_admin_approver
   fin drush group:user:add site_admin_approver 1 'public_content-approver'

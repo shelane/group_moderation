@@ -47,6 +47,8 @@ fin blt drupal:install -n
 fin drush en my_default_content
 fin drush pm:uninstall my_default_content -y
 
+fin test-users
+
 echo
 echo -en "${green_bg} DONE! ${NC}"
 echo
